@@ -54,6 +54,10 @@ git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.gi
 svn co https://github.com/kiddin9/openwrt-packages/trunk/UnblockNeteaseMusic-Go package/UnblockNeteaseMusic-Go
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-unblockneteasemusic-go package/luci-app-unblockneteasemusic-go
 
+git clone --depth=1 https://github.com/VIKINGYFY/homeproxy package/luci-app-homeproxy
+git clone --depth=1 https://github.com/vernesong/OpenClash package/luci-app-openclash
+git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/luci-app-mihomo 
+git clone --depth=1 https://github.com/linkease/istore package/luci-app-store 
 
 # 删除重复包
 
